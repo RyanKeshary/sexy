@@ -1,92 +1,79 @@
 ---
 name: sexy
 description: >-
-  The unified design & UI/UX master pipeline. Orchestrates awesome-design-md, hallmark, impeccable,
-  make-interfaces-feel-better, scroll-craft, and ui-ux-pro-max collectively into a single unified design workflow.
-  Use whenever the user invokes /sexy, asks for a "sexy" or "insanely good" UI, requests a complete frontend overhaul,
-  or asks to build a modern, high-craft, distinctive web interface with motion, micro-interactions, 3D effects, and design tokens.
+  The master unified intelligence and execution pipeline. Harmonizes design tokens, anti-AI creative direction,
+  landing page 3D spatial journeys, 1-2 horizontal scroll strips, micro-interaction physics, design director craft floors,
+  minimal pragmatic engineering (ponytail), auth, packaging, and launch generation.
+  Use whenever the user invokes /sexy, asks for a "sexy" or "world-class" UI, requests a full design overhaul,
+  or needs specialized routing across design, motion, polish, responsive review, auth, or launch workflows.
 ---
 
-# Sexy: Unified Design & Engineering Pipeline
+# Sexy: Unified Intelligence & Design-Engineering Suite
 
-The **Sexy** pipeline unifies 6 world-class design and engineering frameworks into a coherent, 5-stage synthesis. Instead of conflicting instructions, each engine takes ownership of the phase it was specifically built for.
+**Sexy** is an all-in-one super-pipeline that orchestrates world-class design, motion, micro-physics, engineering pragmatism, authentication, and launch capabilities without compromising the full depth of each individual tool.
 
-```
-       [ 1. DNA & TOKENS ] ────► awesome-design-md + ui-ux-pro-max
-                │
-       [ 2. CREATIVE SOUL ] ───► hallmark (anti-generic character)
-                │
-       [ 3. SPATIAL & 3D ] ────► scroll-craft (layered depth, 3D & horizontal journeys)
-                │
-       [ 4. MICRO-PHYSICS ] ───► make-interfaces-feel-better (concentric radii, springs, micro-interactions)
-                │
-       [ 5. CRAFT FLOOR ] ─────► impeccable (design director audit & zero-compromise finish)
-```
+Rather than blending instructions into a generic middle-ground, **Sexy** operates on **precise domain routing**: each engine is invoked in its full native capacity according to the exact problem space.
 
 ---
 
-## ✦ Non-Negotiable Core Principles
+## ✦ Domain Use-Case Routing Matrix
 
-### 1. It Goes Without Saying: Automatic Micro-Interactions & Exceptional UI/UX
-**Never wait for explicit instructions to add polish.** Every component and screen touched by `sexy` must automatically exhibit:
-- **Rich Micro-Interactions**: Hover lifts, subtle border glows on focus, scale compressions on press (`active:scale-[0.98]`), magnetic pointer pull, or cursor spotlight effects.
-- **Meaningful Motion & Transitions**: Every interactive element must transition smoothly with natural spring curves (150ms–250ms). Never use sluggish linear easing or sudden jump-cuts.
-- **Physical Precision**: Inner border radius mathematically calculated to match container padding ($R_{inner} = R_{outer} - padding$), `-webkit-font-smoothing: antialiased`, tabular figures (`tabular-nums`) for changing numbers/counters, and `text-wrap: balance` on headers.
+When a task arrives, identify the primary domain and trigger the corresponding engine at its maximum depth:
 
-### 2. Landing Pages: Mandatory Horizontal Scroll & 3D Depth
-When creating, upgrading, or modifying any landing page:
-- **1–2 Horizontal Scroll Sections**: Always feature 1 to 2 curated, short, but highly meaningful horizontal scroll strips (e.g. pinned feature galleries, interactive interactive card workflows, timeline sequences, or portfolio deep-dives) with intuitive scroll/drag cues.
-- **3D Spatial Interactions**: Embed interactive 3D depth and dimensionality:
-  - 3D card tilt tracking pointer coordinates (`transform: perspective(1000px) rotateX(...) rotateY(...) scale3d(...)`).
-  - Multi-plane spatial parallax heroes (foreground floating assets, midpoint focus items, background atmosphere).
-  - Volumetric lighting, mesh depth gradients, or interactive WebGL/Three.js/Spline canvas moments.
-- **Creative & Beautiful**: Strive for award-winning aesthetic beauty, high contrast, distinctive typography, and emotional resonance.
-
----
-
-## The 5-Phase Collective Workflow
-
-Whenever designing, implementing, or overhauling an interface with `sexy`:
-
-### Phase 1: Foundation & Design DNA
-- **Engines**: `design-md` (`awesome-design-md`) + `ui-ux-pro-max`
-- **Actions**:
-  1. Pick or infer the aesthetic archetype (Linear-clean, Apple-minimal, Stripe-vibrant, or custom luxury).
-  2. Pull design tokens from `design-md` references (colors, dark/light canvas surfaces, border ladders, font families).
-  3. Establish a 3-layer token hierarchy: primitive → semantic → component.
-  4. Avoid guessing arbitrary hex codes: anchor every color to a cohesive palette.
-
-### Phase 2: Creative Direction & Anti-AI Filter
-- **Engine**: `hallmark`
-- **Actions**:
-  1. Reject generic "AI-template" hallmarks: no purple/cyan mesh gradients on every card, no floating cards with 0.1 opacity borders, no meaningless iconography.
-  2. Infuse intentional visual tension: strong typographic contrast (e.g. bold display headline paired with ultra-clean tabular body copy).
-  3. Ensure purposeful copy and visual focal points that tell a story.
-
-### Phase 3: Spatial Architecture, 3D & Motion Journey
-- **Engine**: `scroll-craft`
-- **Actions**:
-  1. Define the hero stage with dimensional visual planes (background, midground, foreground).
-  2. **Add 1–2 Horizontal Scroll Sections**: Pin the screen or create smooth horizontal track journeys for curated feature discovery.
-  3. **Incorporate 3D Elements**: Depth tilt, layered z-axis parallax, glassmorphic refraction, and dimensional lighting.
-  4. Implement thoughtful scroll kinetics: enter/exit thresholds, progressive reveals, and fallback for `prefers-reduced-motion`.
-
-### Phase 4: Micro-Interactions & Sensory Details
-- **Engine**: `make-interfaces-feel-better`
-- **Actions**:
-  1. **Concentric Radii**: Ensure inner border radii match outer container formulas ($R_{inner} = R_{outer} - padding$).
-  2. **Typography Polish**: Apply font-smoothing (`-webkit-font-smoothing: antialiased`), tabular numbers for metric counters (`font-variant-numeric: tabular-nums`), and text balance on headings (`text-wrap: balance`).
-  3. **Button & Hit Areas**: Minimum 44px touch targets; subtle scale/active presses (`active:scale-[0.98]`).
-  4. **Natural Springs**: Snappy, interruptible transition curves (150ms-250ms), never sluggish linear easing.
-
-### Phase 5: The Craft Floor Audit & Final Finish
-- **Engine**: `impeccable`
-- **Actions**:
-  1. **Audit**: Run the mental checklist against the `impeccable` craft floor standards.
-  2. **Edge Cases**: Verify empty states, truncated labels, loading skeletons, and ultra-wide / mobile viewpoints.
-  3. **Zero Compromise**: Eliminate any sloppy spacing, misaligned icons, unstyled scrollbars, or jarring contrast jumps.
+| User Goal / Scenario | Dedicated Engine(s) | Full Potential Invoked |
+| :--- | :--- | :--- |
+| **General UI, Tokens & Palettes** | `design-md` + `ui-ux-pro-max` + `design-system` | Reads 80+ real-world brand specs (Apple, Linear, Stripe). Builds 3-layer tokens (primitive → semantic → component). Prevents arbitrary hex guesswork. |
+| **Creative Direction & Anti-AI Slop** | `hallmark` | Strips machine-generated clichés (random purple blobs, floating 0.1 border cards, tracked-capital badges). Establishes editorial hierarchy, high visual tension, and human character. |
+| **Landing Pages & Scrollytelling** | `scroll-craft` | Plans 3-layer spatial depth (foreground, midground, background). **Mandatory 1–2 short, meaningful horizontal scroll tracks** (pinned product reveal, interactive journey). |
+| **2D / 3D Spatial Interactions** | `scroll-craft` + `make-interfaces-feel-better` | Interactive 3D card tilt tracking cursor perspective (`transform: perspective(1000px) rotateX(...) rotateY(...)`), depth-mapped lighting, glassmorphic refraction, and canvas/Three.js focal objects. |
+| **Micro-Interactions, Hover & Physics** | `make-interfaces-feel-better` | **Automatic & mandatory**: Concentric radii ($R_{inner} = R_{outer} - padding$), subpixel font smoothing (`antialiased`), active press scale (`active:scale-[0.98]`), magnetic pointer pull, tabular numbers (`tabular-nums`), and snappy 150–250ms spring curves. |
+| **Responsiveness, Polish & Craft Floor** | `impeccable` | Acts as strict Design Director: audits mobile wraps, text truncation, empty states, loading skeletons, contrast ratios, and edge-case resilience. Holds an unyielding craft floor. |
+| **Pragmatic Code & Bloat Prevention** | `ponytail` (`ponytail-review`, `ponytail-audit`) | Senior lazy dev mode: prevents over-engineering, enforces YAGNI, standard library first, zero unrequested bloat, and minimal diffs. |
+| **Authentication & Session Flows** | `better-auth` | Production-ready auth architecture: TypeScript, Next.js/React, OAuth, 2FA, session cookies, and multi-tenant management. |
+| **Desktop App Packaging** | `pake` | Converts web applications and static builds into lightweight desktop binaries (macOS, Windows, Linux) via Rust/Tauri. |
+| **Autonomous Security & Pentest** | `pentagi` | Orchestrates security testing flows, vulnerability checks, and attack-surface recon inside sandboxed environments. |
+| **Launch Demos & Video Showcases** | `brag` (`brag-slim`) | Transforms completed projects and websites into high-energy, shareable launch videos using Hyperframes without manual video editing. |
 
 ---
 
-## How to Call
-When the user types `/sexy` or asks to make an interface "sexy", run through the 5 phases end-to-end to produce breathtaking, production-ready code with complete styling.
+## ✦ Non-Negotiable Core Laws
+
+### 1. The Polish Law: Automatic Micro-Interactions (Zero Prompting Needed)
+**It goes without saying or explicit prompting**: every interface touched or generated by Sexy MUST ship with high-craft micro-interactions and tactile polish:
+- **Hover & Active States**: Every clickable surface has a subtle elevation or glow, active press scale (`active:scale-[0.98]`), and optical hit alignment (min 44px touch targets).
+- **Physical Spring Curves**: All transitions use snappy, natural spring curves (150ms–250ms). Never sluggish linear transitions.
+- **Precision Formulas**: Inner radii obey $R_{inner} = R_{outer} - padding$. Typography enforces `text-wrap: balance` on headlines and `tabular-nums` for counters.
+
+### 2. The Landing Page Law: Horizontal Scroll & 3D Depth
+Whenever building or enhancing landing pages:
+- **1–2 Horizontal Scroll Sections**: Always incorporate **1 to 2 short, curated horizontal scroll tracks** (e.g. pinned feature carousels, timeline roadmaps, or interactive card workflows).
+- **3D Spatial Elements**: Multi-plane hero parallax, perspective card tilt on mouse move, volumetric lighting, or 3D canvas focal elements.
+- **Sensory Excellence**: The page must look like an award-winning human design studio designed it, completely rejecting generic AI templates.
+
+---
+
+## ✦ Complete End-to-End Execution Pipeline (`/sexy`)
+
+When invoked for a full build or overhaul, execute these 5 stages sequentially:
+
+1. **Stage 1 (DNA)**: Query `design-md` and `ui-ux-pro-max` for authentic tokens, color ramps, and typography ladders.
+2. **Stage 2 (Soul)**: Apply `hallmark`'s anti-slop filter to establish human editorial character and visual tension.
+3. **Stage 3 (Motion & 3D)**: Apply `scroll-craft` to architect the hero planes, 3D perspective tilt, and 1–2 horizontal scroll journeys.
+4. **Stage 4 (Physics)**: Apply `make-interfaces-feel-better` to enforce concentric radii, spring physics, and micro-interactions.
+5. **Stage 5 (Craft Floor & Pragmatism)**: Apply `impeccable` to audit responsive breakpoints and accessibility, while applying `ponytail` principles to eliminate unnecessary bloat.
+
+---
+
+## ✦ Individual Skill Invocations
+
+All skills remain independently available. You can invoke any capability directly:
+- `/scroll-craft` — Spatial hero journeys & horizontal scroll tracks
+- `/hallmark` — Anti-generic creative direction & theme engine
+- `/impeccable` — Design director critique & craft-floor inspection
+- `/make-interfaces-feel-better` — Micro-interactions, border radii, and spring curves
+- `/ui-ux-pro-max` — UI reasoning, color systems, and multi-stack guidelines
+- `/design-md` — 80+ real-world design specifications
+- `/ponytail`, `/ponytail-review`, `/ponytail-audit` — Pragmatic code audits & bloat removal
+- `/better-auth` — Authentication setups and OAuth flows
+- `/pake` — Desktop app packaging
+- `/brag`, `/brag-slim` — Automated launch video generation

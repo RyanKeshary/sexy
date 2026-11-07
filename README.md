@@ -3,12 +3,12 @@
 
   # sexy
 
-  **The unified design intelligence skill for AI agents that refuses to look AI-generated.**
+  **The unified intelligence & design-engineering skill for AI agents that refuses to look AI-generated.**
 
-  *Orchestrating 6 world-class design frameworks into a single seamless, high-craft creative pipeline.*
+  *Orchestrating world-class design, motion, micro-physics, pragmatic code, auth, and launch tools into a single seamless pipeline.*
 
   [![Antigravity Plugin](https://img.shields.io/badge/Antigravity-Plugin-black?style=flat-square&logo=google)](https://antigravity.google)
-  [![Skills Count](https://img.shields.io/badge/skills-13%20bundled-blueviolet?style=flat-square)](#skills-suite)
+  [![Skills Count](https://img.shields.io/badge/skills-24%20bundled-blueviolet?style=flat-square)](#bundled-skills-suite)
   [![Agent Portability](https://img.shields.io/badge/agents-Antigravity%20%7C%20Claude%20Code%20%7C%20Cursor%20%7C%20Codex-3b82f6?style=flat-square)](#quick-install)
   [![License](https://img.shields.io/badge/licence-MIT-emerald?style=flat-square)](LICENSE)
 
@@ -16,13 +16,33 @@
 
 ---
 
-Most AI website and frontend output fails in one of two directions:
+Most AI website and software output fails in one of two directions:
 1. **The generic template**: Well-behaved, sterile, and forgettable. Floating 1px borders, random purple/cyan gradients on every card, tracked-capital badges, and an email newsletter form tacked onto the bottom of every page.
 2. **The broken flash**: A flashy scroll animation with unreadable 2.1:1 low-contrast body text, headlines that wrap to 6 lines on a phone, and zero responsive testing.
 
 **sexy** is built to fail neither way. It treats **interaction, aesthetic soul, and production craft as one discipline**. 
 
-Instead of dumping conflicting instructions into your prompt, **sexy** unifies 6 powerhouse design engines into an orchestrated 5-stage synthesis where each engine owns the exact phase it was engineered for.
+Instead of dumping conflicting instructions into your prompt or compromising tools into a watered-down middle ground, **sexy** uses a **domain-specific routing matrix**: each engine is triggered in its full native capacity according to the exact problem space.
+
+---
+
+## ✦ Domain Use-Case Routing Matrix
+
+Every scenario is assigned to its dedicated world-class engine so tools never conflict and always deliver their maximum power:
+
+| User Scenario | Dedicated Engine(s) | Full Potential Invoked |
+| :--- | :--- | :--- |
+| **General UI, Tokens & Palettes** | `design-md` + `ui-ux-pro-max` | 80+ real-world design specifications (Apple, Linear, Stripe, Vercel). 3-layer token hierarchy (primitive → semantic → component). Zero hex guesswork. |
+| **Anti-AI Slop & Creative Soul** | `hallmark` | Rejects the tells that read as machine-generated. Infuses human editorial tension, distinctive typography, and intentional layouts. |
+| **Landing Pages & Scrollytelling** | `scroll-craft` | Multi-layer visual planes (foreground, midground, background). **Mandatory 1–2 short, meaningful horizontal scroll tracks**. |
+| **2D & 3D Spatial Interactions** | `scroll-craft` + `make-interfaces-feel-better` | Interactive 3D perspective card tilt tracking mouse coordinates (`transform: perspective(1000px) rotateX(...) rotateY(...)`), depth lighting & canvas/Three.js focal assets. |
+| **Micro-Interactions, Hover & Physics** | `make-interfaces-feel-better` | **Automatic & mandatory**: Concentric radii ($R_{inner} = R_{outer} - padding$), subpixel font smoothing, active press scale (0.98), and snappy 150–250ms spring curves. |
+| **Responsiveness, Polish & Review** | `impeccable` | Acts as strict Design Director: audits mobile wraps, text truncation, empty states, loading skeletons, contrast ratios, and craft floors. |
+| **Pragmatic Code & Bloat Prevention** | `ponytail` (`ponytail-review`, `ponytail-audit`) | Senior lazy dev mode: prevents over-engineering, enforces YAGNI, standard library first, zero unrequested bloat, and minimal clean diffs. |
+| **Authentication & Session Flows** | `better-auth` | Production-ready auth architecture: TypeScript, Next.js/React, OAuth, 2FA, session cookies, and multi-tenant security. |
+| **Desktop App Packaging** | `pake` | Converts web applications and static builds into lightweight desktop binaries (macOS, Windows, Linux) via Rust/Tauri. |
+| **Autonomous Security & Pentest** | `pentagi` | Orchestrates security testing flows, vulnerability checks, and attack-surface recon inside sandboxed environments. |
+| **Launch Demos & Video Showcases** | `brag` (`brag-slim`) | Transforms completed projects and websites into high-energy, shareable launch videos using Hyperframes without manual video editing. |
 
 ---
 
@@ -37,14 +57,14 @@ Instead of dumping conflicting instructions into your prompt, **sexy** unifies 6
 ### 2. Landing Pages: Horizontal Scroll & 3D Spatial Interactions
 Whenever building, enhancing, or modifying landing pages:
 - **1–2 Horizontal Scroll Sections**: Always include **1 to 2 curated, short, but meaningful horizontal scroll tracks** (e.g. pinned product reveals, feature cards, timeline workflows, or showcase galleries) with natural scroll/drag cues.
-- **3D Spatial Depth**: Integrate interactive 3D perspective — pointer-following 3D card tilt (`transform: perspective(1000px) rotateX(...) rotateY(...)`), multi-layer z-axis parallax hero stages, volumetric lighting, and WebGL/Three.js/Spline focal assets.
+- **3D Spatial Depth**: Integrate interactive 3D perspective — pointer-following 3D card tilt (`transform: perspective(1000px) rotateX(...) rotateY(...) scale3d(...)`), multi-layer z-axis parallax hero stages, volumetric lighting, and WebGL/Three.js/Spline focal assets.
 - **Visual Stunner**: Strive for breathtaking, memorable, and creative art direction that looks like an award-winning human design studio built it.
 
 ---
 
-## ✦ The 5-Stage Collective Pipeline
+## ✦ The 5-Stage Collective Pipeline (`/sexy`)
 
-When you call `/sexy` or ask your assistant to design or polish a screen, the engines curate together without conflict:
+When you call `/sexy` for a comprehensive design build, the engines execute in a harmonious sequence:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
@@ -76,35 +96,24 @@ When you call `/sexy` or ask your assistant to design or polish a screen, the en
 └───────────────────────────────────┬────────────────────────────────────┘
                                     ▼
 ┌────────────────────────────────────────────────────────────────────────┐
-│  Stage 5: Design Director Audit & Craft Floor                          │
-│  ► impeccable                                                          │
-│  Holds an uncompromising craft floor: checks mobile wraps, empty       │
-│  states, loading skeletons, truncation, and accessibility standards.   │
-└───────────────────────────────────────────────────────────────────────┘
+│  Stage 5: Design Director Audit, Craft Floor & Pragmatism             │
+│  ► impeccable + ponytail                                               │
+│  Holds an uncompromising craft floor (mobile wraps, skeletons, a11y)   │
+│  while enforcing zero bloat, YAGNI, and minimal clean code.            │
+└────────────────────────────────────────────────────────────────────────┘
 ```
-
----
-
-## ✦ What the 6 Engines Bring
-
-| Engine | Origin | What It Brings to Your UI |
-| :--- | :--- | :--- |
-| **`awesome-design-md`** | VoltAgent | **80+ Brand Design Specs:** Production-grade `DESIGN.md` specs from Apple, Stripe, Linear, Figma, Vercel, Airbnb, and more. |
-| **`ui-ux-pro-max`** | NextLevelBuilder | **System Architecture:** 3-layer design tokens (primitive → semantic → component), palette reasoning, and multi-stack UI guidelines. |
-| **`hallmark`** | Nutlope | **Anti-AI Aesthetic Filter:** Rejects the tells that read as machine-generated; builds the page around what the visitor came to do. |
-| **`scroll-craft`** | Nate Herk | **Spatial Depth, 3D & Motion:** Dimensional heroes, 3D perspective tilt, 1–2 horizontal scroll sections, and cinematic motion. |
-| **`make-interfaces-feel-better`** | Jakub Krehel | **Design Engineering Polish:** Concentric radii, subpixel font smoothing, hit area ergonomics, and snappy spring curves (150–250ms). |
-| **`impeccable`** | Paul Bakaus | **Design Director Review:** Non-negotiable quality floor, zero-compromise finish, and rigorous verification across viewports. |
 
 ---
 
 ## ✦ Bundled Skills Suite
 
-The plugin ships **13 modular skills** loaded progressively on demand:
+The plugin ships **24 modular skills** that can also be used individually:
 
 ```
 skills/
-├── sexy/                        # Master 5-stage orchestrator (/sexy)
+├── sexy/                        # Master orchestrator & domain router (/sexy)
+│
+├── [ Design & Architecture ]
 ├── design-md/                   # 80+ real-world DESIGN.md references
 ├── hallmark/                    # Anti-AI creative direction & theme catalog
 ├── scroll-craft/                # Scroll-driven kinetics, 3D & horizontal tracks
@@ -116,7 +125,22 @@ skills/
 ├── ui-styling/                  # Tailwind, CSS primitives & layout tokens
 ├── brand/                       # Visual identity, voice & asset guidelines
 ├── banner-design/               # Social banners, OG cards & hero graphics
-└── slides/                      # Pitch decks & presentation layouts
+├── slides/                      # Pitch decks & presentation layouts
+│
+├── [ Pragmatism & Code Quality ]
+├── ponytail/                    # Lazy senior dev mode (minimal clean code)
+├── ponytail-review/             # Code review focused on simplicity & correctness
+├── ponytail-audit/              # Whole-repo bloat and vulnerability audit
+├── ponytail-debt/               # Technical debt tracker
+├── ponytail-gain/               # Performance & speed scoreboard
+├── ponytail-help/               # Quick reference guide
+│
+├── [ Auth, Packaging, Security & Launch ]
+├── better-auth/                 # TypeScript authentication, OAuth & 2FA
+├── pake/                        # Native desktop app packaging (Rust/Tauri)
+├── pentagi/                     # Autonomous AI penetration testing & recon
+├── brag/                        # Automatic launch video generation
+└── brag-slim/                   # Fast single-file launch video builder
 ```
 
 ---
@@ -149,20 +173,31 @@ cp -r skills/* ~/.claude/skills/
 
 ---
 
-## ✦ Usage
+## ✦ Usage Examples
 
-Just prompt your assistant with `/sexy` or ask for high-craft UI. The agent automatically runs through the 5 stages:
-
+### Full Orchestrated Experience (`/sexy`)
 ```text
 /sexy build a landing page for an autonomous robotics studio
 ```
 
+### Direct Specialized Invocations
 ```text
-/sexy overhaul our dashboard settings to make it feel tactile, responsive, and distinct
+/scroll-craft design a 3D parallax hero with a pinned horizontal feature track
 ```
-
 ```text
-Make this landing page feel sexy: 3D perspective tilt, a horizontal showcase strip, concentric radii, and snappy springs
+/hallmark redesign this page to eliminate generic AI card tropes and add editorial weight
+```
+```text
+/impeccable audit this dashboard for mobile breakpoints, contrast, and edge cases
+```
+```text
+/ponytail-review is this modal over-engineered? simplify it to the minimal working code
+```
+```text
+/better-auth configure Google OAuth and session management for Next.js
+```
+```text
+/brag generate a launch video for our new website
 ```
 
 ---
@@ -178,3 +213,8 @@ Built on top of groundbreaking work by the community:
 - [make-interfaces-feel-better](https://github.com/jakubkrehel/make-interfaces-feel-better) by **Jakub Krehel**
 - [impeccable](https://github.com/pbakaus/impeccable) by **Paul Bakaus**
 - [ui-ux-pro-max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) by **NextLevelBuilder**
+- [ponytail](https://github.com/DietrichGebert/ponytail) by **Dietrich Gebert**
+- [better-auth](https://github.com/better-auth/better-auth) by **Better Auth**
+- [Pake](https://github.com/tw93/Pake) by **tw93**
+- [brag](https://github.com/latent-spaces/brag) by **Shunit Haviv Hakimi**
+- [PentAGI](https://github.com/vxcontrol/pentagi) by **vxcontrol**
