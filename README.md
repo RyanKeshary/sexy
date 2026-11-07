@@ -1,144 +1,164 @@
-# Sexy ⚡️
-
 <div align="center">
-  <img src="assets/logo.jpg" alt="Sexy Logo" width="180" style="border-radius: 24px; box-shadow: 0 20px 40px -15px rgba(0,0,0,0.3);" />
+  <img src="assets/logo.jpg" alt="Sexy Logo" width="160" style="border-radius: 28px; box-shadow: 0 24px 48px -12px rgba(0,0,0,0.35);" />
 
-  ### The Unified Design & UI/UX Intelligence Engine for AI Agents
+  # sexy
 
-  [![Antigravity Plugin](https://img.shields.io/badge/Antigravity-Plugin-black?style=for-the-badge&logo=google)](https://antigravity.google)
-  [![Skills Count](https://img.shields.io/badge/Skills-13%20Bundled-blueviolet?style=for-the-badge)](#skills-suite)
-  [![License](https://img.shields.io/badge/License-MIT-emerald?style=for-the-badge)](#license)
+  **The unified design intelligence skill for AI agents that refuses to look AI-generated.**
 
   *Orchestrating 6 world-class design frameworks into a single seamless, high-craft creative pipeline.*
+
+  [![Antigravity Plugin](https://img.shields.io/badge/Antigravity-Plugin-black?style=flat-square&logo=google)](https://antigravity.google)
+  [![Skills Count](https://img.shields.io/badge/skills-13%20bundled-blueviolet?style=flat-square)](#skills-suite)
+  [![Agent Portability](https://img.shields.io/badge/agents-Antigravity%20%7C%20Claude%20Code%20%7C%20Cursor%20%7C%20Codex-3b82f6?style=flat-square)](#quick-install)
+  [![License](https://img.shields.io/badge/licence-MIT-emerald?style=flat-square)](LICENSE)
 
 </div>
 
 ---
 
-## ✦ Overview
+Most AI website and frontend output fails in one of two directions:
+1. **The generic template**: Well-behaved, sterile, and forgettable. Floating 1px borders, random purple/cyan gradients on every card, tracked-capital badges, and an email newsletter form tacked onto the bottom of every page.
+2. **The broken flash**: A flashy scroll animation with unreadable 2.1:1 low-contrast body text, headlines that wrap to 6 lines on a phone, and zero responsive testing.
 
-**Sexy** is an all-in-one design intelligence plugin and skill suite built for AI development environments (Google Antigravity, Claude Code, Cursor, Codex).
+**sexy** is built to fail neither way. It treats **interaction, aesthetic soul, and production craft as one discipline**. 
 
-Instead of fragmented advice or conflicting aesthetic rules, **Sexy** unifies 6 powerhouse design engines into a progressive 5-stage synthesis. Each engine takes ownership of the phase it was specifically engineered for:
-
-| Engine | Origin | Role in the Pipeline |
-| :--- | :--- | :--- |
-| **`awesome-design-md`** | VoltAgent | **Design DNA & Tokens:** 80+ real-world design specifications (Apple, Linear, Stripe, Vercel). |
-| **`ui-ux-pro-max`** | NextLevelBuilder | **System & Architecture:** 3-layer design tokens, UX rules, palette reasoning, multi-platform guidelines. |
-| **`hallmark`** | Nutlope | **Creative Direction & Anti-AI Filter:** Rejects generic AI clichés; infuses editorial tension and character. |
-| **`scroll-craft`** | Nate Herk | **Spatial Depth & Motion:** Multi-layer visual planes, hero staging, scroll kinetics, and reduced-motion care. |
-| **`make-interfaces-feel-better`** | Jakub Krehel | **Micro-Physics & Polish:** Concentric radii ($R_{inner} = R_{outer} - p$), font-smoothing, tabular numbers. |
-| **`impeccable`** | Paul Bakaus | **Design Director Standards:** Non-negotiable craft floor, responsive rigor, edge cases, zero-compromise finish. |
+Instead of dumping conflicting instructions into your prompt, **sexy** unifies 6 powerhouse design engines into an orchestrated 5-stage synthesis where each engine owns the exact phase it was engineered for.
 
 ---
 
-## ✦ The 5-Phase Collective Workflow
+## ✦ The 5-Stage Collective Pipeline
 
-When invoked via `/sexy` or when asking the agent to build or overhaul UI, the engines collaborate sequentially:
+When you call `/sexy` or ask your assistant to design or polish a screen, the engines curate together without conflict:
 
 ```
-[ Phase 1: Foundation & DNA ]
-    └── awesome-design-md + ui-ux-pro-max
-        Pulls real tokens, typography ladders, and surface hierarchies.
-        No guessing arbitrary hex codes.
-              │
-              ▼
-[ Phase 2: Creative Direction & Anti-AI Filter ]
-    └── hallmark
-        Strips purple/cyan gradients and generic floating card tropes.
-        Injects strong typographic contrast and bold focal points.
-              │
-              ▼
-[ Phase 3: Spatial Architecture & Motion Journey ]
-    └── scroll-craft
-        Defines background, midground, and foreground planes.
-        Implements smooth scroll-triggered storytelling and responsive fallback.
-              │
-              ▼
-[ Phase 4: Micro-Interactions & Sensory Details ]
-    └── make-interfaces-feel-better
-        Enforces concentric border radii formulas, active press scale (0.98),
-        font-smoothing, tabular figures, and snappy spring curves (150-250ms).
-              │
-              ▼
-[ Phase 5: The Craft Floor Audit ]
-    └── impeccable
-        Acts as Design Director: checks responsive breakpoints, empty states,
-        loading skeletons, truncation, and accessibility standards.
+┌────────────────────────────────────────────────────────────────────────┐
+│  Stage 1: Foundation & Design DNA                                      │
+│  ► awesome-design-md + ui-ux-pro-max                                  │
+│  Pulls proven tokens, typography ladders, and surface hierarchies      │
+│  (Apple, Linear, Stripe, Vercel) instead of guessing random hex codes. │
+└───────────────────────────────────┬────────────────────────────────────┘
+                                    ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│  Stage 2: Creative Direction & Anti-AI Filter                          │
+│  ► hallmark                                                            │
+│  Strips AI slop: no decorative purple blobs, no meaningless icons.     │
+│  Injects intentional editorial tension, human hierarchy & personality. │
+└───────────────────────────────────┬────────────────────────────────────┘
+                                    ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│  Stage 3: Spatial Architecture & Motion Journey                        │
+│  ► scroll-craft                                                        │
+│  Orchestrates independent depth planes (background, midground, hero),  │
+│  scroll kinetics, and entrance states with reduced-motion care.        │
+└───────────────────────────────────┬────────────────────────────────────┘
+                                    ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│  Stage 4: Micro-Interactions & Sensory Details                         │
+│  ► make-interfaces-feel-better                                         │
+│  Applies concentric border radii (R_inner = R_outer - padding),        │
+│  tabular numerals, text-wrap balance, button active scales & springs.  │
+└───────────────────────────────────┬────────────────────────────────────┘
+                                    ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│  Stage 5: Design Director Audit & Craft Floor                          │
+│  ► impeccable                                                          │
+│  Holds an uncompromising craft floor: checks mobile wraps, empty       │
+│  states, loading skeletons, truncation, and accessibility standards.   │
+└────────────────────────────────────────────────────────────────────────┘
 ```
+
+---
+
+## ✦ What the 6 Engines Bring
+
+| Engine | Origin | What It Brings to Your UI |
+| :--- | :--- | :--- |
+| **`awesome-design-md`** | VoltAgent | **80+ Brand Design Specs:** Production-grade `DESIGN.md` specs from Apple, Stripe, Linear, Figma, Vercel, Airbnb, and more. |
+| **`ui-ux-pro-max`** | NextLevelBuilder | **System Architecture:** 3-layer design tokens (primitive → semantic → component), palette reasoning, and multi-stack UI guidelines. |
+| **`hallmark`** | Nutlope | **Anti-AI Aesthetic Filter:** Rejects the tells that read as machine-generated; builds the page around what the visitor came to do. |
+| **`scroll-craft`** | Nate Herk | **Spatial Depth & Motion:** Dimensional heroes, independent visual layers, smooth scroll transitions, and mobile art direction. |
+| **`make-interfaces-feel-better`** | Jakub Krehel | **Design Engineering Polish:** Concentric radii, subpixel font smoothing, hit area ergonomics, and snappy spring curves (150–250ms). |
+| **`impeccable`** | Paul Bakaus | **Design Director Review:** Non-negotiable quality floor, zero-compromise finish, and rigorous verification across viewports. |
 
 ---
 
 ## ✦ Bundled Skills Suite
 
-This plugin includes **13 specialized skills** ready for on-demand progressive disclosure:
+The plugin ships **13 modular skills** loaded progressively on demand:
 
-1. **`sexy`**: Master pipeline orchestrator that executes the full 5-stage workflow end-to-end.
-2. **`design-md`**: 80+ ready-to-use brand design specifications (`apple`, `linear`, `stripe`, `figma`, `vercel`, `airbnb`, etc.).
-3. **`hallmark`**: Distinctive, human-crafted design guidelines preventing generic AI templates.
-4. **`impeccable`**: Design director critique, audit, and quality floor assurance.
-5. **`make-interfaces-feel-better`**: Micro-interaction engineering rules (surfaces, animations, typography, icons).
-6. **`scroll-craft`**: Premium scroll-driven landing pages and cinematic hero layouts.
-7. **`ui-ux-pro-max`**: Master design reasoning across web, mobile, and desktop stacks.
-8. **`design`**: High-craft UI design generation, component patterns, and token usage.
-9. **`design-system`**: 3-layer design tokens (primitive → semantic → component).
-10. **`ui-styling`**: Utility-first CSS, Tailwind, responsive layout primitives, and component specs.
-11. **`brand`**: Brand voice, style guides, identity systems, and visual assets.
-12. **`banner-design`**: Promotional banners, social cards, OpenGraph images, and hero graphics.
-13. **`slides`**: Modern presentation slides, decks, and pitch layouts.
+```
+skills/
+├── sexy/                        # Master 5-stage orchestrator (/sexy)
+├── design-md/                   # 80+ real-world DESIGN.md references
+├── hallmark/                    # Anti-AI creative direction & theme catalog
+├── scroll-craft/                # Scroll-driven kinetics & layered heroes
+├── make-interfaces-feel-better/ # Micro-interaction physics & surface polish
+├── impeccable/                  # Design director audit & craft-floor rules
+├── ui-ux-pro-max/               # UI/UX intelligence across web & mobile
+├── design/                      # Component generation & design patterns
+├── design-system/               # 3-layer token management
+├── ui-styling/                  # Tailwind, CSS primitives & layout tokens
+├── brand/                       # Visual identity, voice & asset guidelines
+├── banner-design/               # Social banners, OG cards & hero graphics
+└── slides/                      # Pitch decks & presentation layouts
+```
 
 ---
 
-## ✦ Installation
+## ✦ Quick Install
 
-### 1. In Antigravity CLI (`agy`)
+### In Antigravity CLI (`agy`)
 
-Install directly from GitHub:
+Install globally in one command:
 ```bash
 agy plugin install https://github.com/RyanKeshary/sexy.git
 ```
 
-Or clone into your global plugins directory:
+Or clone into your local plugin registry:
 ```bash
 git clone https://github.com/RyanKeshary/sexy.git ~/.gemini/config/plugins/sexy
 agy plugin enable sexy
 ```
 
-### 2. Manual / Other AI Agents (Claude Code, Cursor, Codex)
+### In Claude Code, Cursor, Codex, or OpenCode
 
-Copy the skills into your agent's customization directory:
+Clone or link the skills folder into your agent's customization directory:
 ```bash
-cp -r skills/* ~/.agents/skills/
+# Workspace level
+cp -r skills/* .agents/skills/
+
+# Or global Claude Code / Codex
+cp -r skills/* ~/.claude/skills/
 ```
 
 ---
 
-## ✦ How to Use
+## ✦ Usage
 
-Simply ask your AI assistant to design or polish your interface using the `/sexy` slash command or natural prompts:
+Just prompt your assistant with `/sexy` or ask for high-craft UI. The agent automatically runs through the 5 stages:
 
 ```text
 /sexy build a landing page for an autonomous robotics studio
 ```
 
 ```text
-/sexy overhaul our dashboard interface to make it look distinct and premium
+/sexy overhaul our dashboard settings to make it feel tactile, responsive, and distinct
 ```
 
 ```text
-Make this login modal feel sexy and apply concentric radii and spring physics
+Make this modal feel sexy: concentric radii, spring physics, and linear-style dark surfaces
 ```
-
-The assistant will automatically load the required specifications from `sexy` and execute the 5-phase collective pipeline.
 
 ---
 
-## ✦ License
+## ✦ License & Credits
 
-MIT © [Ryan Keshary](https://github.com/RyanKeshary). Open-source components are credited to their respective authors:
-- `awesome-design-md` by [VoltAgent](https://github.com/VoltAgent)
-- `ui-ux-pro-max` by [NextLevelBuilder](https://github.com/nextlevelbuilder)
-- `hallmark` by [Nutlope](https://github.com/Nutlope)
-- `scroll-craft` by [Nate Herk](https://github.com/nateherkai)
-- `make-interfaces-feel-better` by [Jakub Krehel](https://github.com/jakubkrehel)
-- `impeccable` by [Paul Bakaus](https://github.com/pbakaus)
+Released under the [MIT License](LICENSE) © [Ryan Keshary](https://github.com/RyanKeshary).
+
+Built on top of groundbreaking work by the community:
+- [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) by **VoltAgent**
+- [hallmark](https://github.com/Nutlope/hallmark) by **Nutlope (Together AI)**
+- [scroll-craft](https://github.com/nateherkai/scroll-craft) by **Nate Herk**
+- [make-interfaces-feel-better](https://github.com/jakubkrehel/make-interfaces-feel-better) by **Jakub Krehel**
+- [impeccable](https://github.com/pbakaus/impeccable) by **Paul Bakaus**
+- [ui-ux-pro-max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) by **NextLevelBuilder**
