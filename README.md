@@ -26,6 +26,22 @@ Instead of dumping conflicting instructions into your prompt, **sexy** unifies 6
 
 ---
 
+## ✦ Non-Negotiable Core Laws
+
+### 1. Automatic Micro-Interactions & UI/UX Excellence
+**It goes without saying or instructing**: any code produced under `sexy` must automatically come with exceptional micro-interactions and smooth UI polish:
+- **Never wait for prompts asking to add polish**: Hover lifts, active press scales (`active:scale-[0.98]`), magnetic pointer pull, cursor spotlights, and subtle border glows are standard.
+- **Natural Spring Motion**: Snappy spring curves (150ms–250ms) for enter/exit, popovers, and states. No sluggish linear transitions.
+- **Physical Precision**: Inner border radius matches container padding ($R_{inner} = R_{outer} - padding$), subpixel font smoothing, tabular figures for dynamic metric changes, and `text-wrap: balance`.
+
+### 2. Landing Pages: Horizontal Scroll & 3D Spatial Interactions
+Whenever building, enhancing, or modifying landing pages:
+- **1–2 Horizontal Scroll Sections**: Always include **1 to 2 curated, short, but meaningful horizontal scroll tracks** (e.g. pinned product reveals, feature cards, timeline workflows, or showcase galleries) with natural scroll/drag cues.
+- **3D Spatial Depth**: Integrate interactive 3D perspective — pointer-following 3D card tilt (`transform: perspective(1000px) rotateX(...) rotateY(...)`), multi-layer z-axis parallax hero stages, volumetric lighting, and WebGL/Three.js/Spline focal assets.
+- **Visual Stunner**: Strive for breathtaking, memorable, and creative art direction that looks like an award-winning human design studio built it.
+
+---
+
 ## ✦ The 5-Stage Collective Pipeline
 
 When you call `/sexy` or ask your assistant to design or polish a screen, the engines curate together without conflict:
@@ -46,10 +62,10 @@ When you call `/sexy` or ask your assistant to design or polish a screen, the en
 └───────────────────────────────────┬────────────────────────────────────┘
                                     ▼
 ┌────────────────────────────────────────────────────────────────────────┐
-│  Stage 3: Spatial Architecture & Motion Journey                        │
+│  Stage 3: Spatial Architecture, 3D & Motion Journey                    │
 │  ► scroll-craft                                                        │
-│  Orchestrates independent depth planes (background, midground, hero),  │
-│  scroll kinetics, and entrance states with reduced-motion care.        │
+│  Orchestrates independent depth planes, 3D card tilt & perspectives,   │
+│  1-2 horizontal scroll tracks, and cinematic entrance kinetics.       │
 └───────────────────────────────────┬────────────────────────────────────┘
                                     ▼
 ┌────────────────────────────────────────────────────────────────────────┐
@@ -64,7 +80,7 @@ When you call `/sexy` or ask your assistant to design or polish a screen, the en
 │  ► impeccable                                                          │
 │  Holds an uncompromising craft floor: checks mobile wraps, empty       │
 │  states, loading skeletons, truncation, and accessibility standards.   │
-└────────────────────────────────────────────────────────────────────────┘
+└───────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -76,7 +92,7 @@ When you call `/sexy` or ask your assistant to design or polish a screen, the en
 | **`awesome-design-md`** | VoltAgent | **80+ Brand Design Specs:** Production-grade `DESIGN.md` specs from Apple, Stripe, Linear, Figma, Vercel, Airbnb, and more. |
 | **`ui-ux-pro-max`** | NextLevelBuilder | **System Architecture:** 3-layer design tokens (primitive → semantic → component), palette reasoning, and multi-stack UI guidelines. |
 | **`hallmark`** | Nutlope | **Anti-AI Aesthetic Filter:** Rejects the tells that read as machine-generated; builds the page around what the visitor came to do. |
-| **`scroll-craft`** | Nate Herk | **Spatial Depth & Motion:** Dimensional heroes, independent visual layers, smooth scroll transitions, and mobile art direction. |
+| **`scroll-craft`** | Nate Herk | **Spatial Depth, 3D & Motion:** Dimensional heroes, 3D perspective tilt, 1–2 horizontal scroll sections, and cinematic motion. |
 | **`make-interfaces-feel-better`** | Jakub Krehel | **Design Engineering Polish:** Concentric radii, subpixel font smoothing, hit area ergonomics, and snappy spring curves (150–250ms). |
 | **`impeccable`** | Paul Bakaus | **Design Director Review:** Non-negotiable quality floor, zero-compromise finish, and rigorous verification across viewports. |
 
@@ -91,7 +107,7 @@ skills/
 ├── sexy/                        # Master 5-stage orchestrator (/sexy)
 ├── design-md/                   # 80+ real-world DESIGN.md references
 ├── hallmark/                    # Anti-AI creative direction & theme catalog
-├── scroll-craft/                # Scroll-driven kinetics & layered heroes
+├── scroll-craft/                # Scroll-driven kinetics, 3D & horizontal tracks
 ├── make-interfaces-feel-better/ # Micro-interaction physics & surface polish
 ├── impeccable/                  # Design director audit & craft-floor rules
 ├── ui-ux-pro-max/               # UI/UX intelligence across web & mobile
@@ -122,7 +138,7 @@ agy plugin enable sexy
 
 ### In Claude Code, Cursor, Codex, or OpenCode
 
-Clone or link the skills folder into your agent's customization directory:
+Copy or link the skills folder into your agent's customization directory:
 ```bash
 # Workspace level
 cp -r skills/* .agents/skills/
@@ -146,7 +162,7 @@ Just prompt your assistant with `/sexy` or ask for high-craft UI. The agent auto
 ```
 
 ```text
-Make this modal feel sexy: concentric radii, spring physics, and linear-style dark surfaces
+Make this landing page feel sexy: 3D perspective tilt, a horizontal showcase strip, concentric radii, and snappy springs
 ```
 
 ---
